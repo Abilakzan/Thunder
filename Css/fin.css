@@ -49,7 +49,9 @@ footer{
     width: 100vw;
     margin-left: -20vh;
 }
-
+section{
+    align-items:center;
+}
 #fond{
     position:fixed;
     overflow:hidden;
