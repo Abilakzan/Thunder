@@ -1,0 +1,53 @@
+html, body{
+    padding:  0;
+    margin: 0;
+}
+
+body{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 1;
+}
+
+#fond{
+	position:fixed;
+	overflow:hidden;
+	width:100vw;
+	height:100vh;
+	z-index: -1;
+	top : 0;
+	left:0;
+}
+
+#logo{
+	width:60vw;
+	animation-duration: 5s;
+    animation-name: grow;
+	animation-iteration-count: infinite;
+	animation-delay:1s;
+}
+
+
+section a img{
+	position : absolute;
+	top:80vh;
+	left:45vw;
+	width:10vw;
+}
+
+section{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+@keyframes grow{
+    from{
+        width:60vw;
+
+    }
+    to{
+        width:80vw;
+    }
+}

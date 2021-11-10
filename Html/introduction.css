@@ -1,0 +1,44 @@
+html, body {
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.introduction{
+    background-color: #0c4b75;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.introduction h2{
+    color: #EEEEEE;
+}
+.introduction p{
+    padding: 5vw 5vh;
+}
+header {
+    background-color: #19191b;
+    display: flex;
+    flex-direction: row;
+    color: #f91556;
+    justify-content: center;
+    font-size: 5vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10vh;
+}
+
+header img{
+    height:20vh;
+}
+
+body {  
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+     background-color: #0c4b75;
+     text-align: center;
+     color: #EEEEEE;
+}

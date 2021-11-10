@@ -1,0 +1,154 @@
+html, body {
+    padding: 0 0;
+    margin: 0 0;
+}
+
+#body{
+display: flex;
+flex-direction: column;
+}
+
+header {
+    background-color: #19191b;
+    display: flex;
+    flex-direction: row;
+    color: #f91556;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 20vh;
+    width: 100vw;
+}
+
+header img{
+    height:30vh;
+    margin-top: -5vh;
+}
+
+body {
+    margin: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name{
+    font-size: 150px;
+    display: flex;
+    color: #f91556;
+    justify-content: space-around;
+    height: 20%;
+}
+
+.name h2{
+    font-size: 50px;
+} 
+
+.text p{
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 20vh;
+    font-family: Bahnschrift;
+}
+
+.text p1{
+    color: #EEEEEE;
+    text-align: left;
+    font-size: 25px;
+}
+
+.text table{
+    color: #EEEEEE;
+    background-color: #282B26;
+}
+
+.text audio{
+    color: #43483F;
+}
+
+article{
+    background-color: #19191b;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+article image{
+    margin-left: 15vh;
+}
+
+section{
+    margin-top: 5vh;
+    width: 80vw;
+    margin-top: 10vh;
+
+}
+
+section .text{
+    margin-top: 15vh;
+}
+
+aside{
+    float: left;
+    width: 35%;
+}
+
+footer{
+     text-align: center;
+     color: #EEEEEE;
+     position: absolute;
+     bottom: 0;
+     width: 100vh;
+
+    background-color: #19191b;
+    display: flex;
+    flex-direction: row;
+    color: #f91556;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    margin-left: -20vh;
+}
+
+h5{
+    text-align: center;
+    
+}
+
+#fond{
+    position:fixed;
+    overflow:hidden;
+    width:100vw;
+    z-index: -1;
+    top : 0;
+    left:0;
+}
+
+.Presentation{
+    display: flex;
+    justify-content: space-between;
+}
+
+article div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+article div img{
+    position: absolute;
+    left:5vw;
+    top:20vh;
+    
+}
+
+article img{
+    width:15vw;
+}
+.Retour img{
+    height:10vh;
+    width: -10vw;
+}

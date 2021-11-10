@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="utf-8">
+        <link href="../css/login.css" rel="stylesheet">
+        <link rel="stylesheet">
+    </head>
+    <header class="menu">
+            <img src="../image/Logo/logo1.png">
+    </header>
+    <body>
+        <img src="../image/background/Background.png" id="fond">
+        <section class="login">
+            <fieldset class="input">
+
+                <p><input type ="text" id="password" placeholder="Password"/></p>
+                <p>
+                    <button type="submit" style="border: 0; background: transparent" onclick="
+                    if (document.getElementById('password').value == '18264957310') {
+                        var nhref = 'fin.html';
+                        document.getElementById('LogBtn').href = nhref;
+                        document.getElementById('LogBtn').click();
+                    }
+
+                    else
+                         alert('Wrong Password');">
+                     <a id="LogBtn" href="login.html">
+                        <img src="../image/Boutton/Login/Idle.png" width="130" alt="submit" /></a>
+                    </button>
+                </p>
+            </fieldset>
+        </section>
+
+                <button type="submit" style="border: 0; background: transparent">
+                    <a href="hub.html"><img src="../image/Boutton/Idle_Boutton.png" width="130" alt="submit" /></a>
+                </button>
+
+    </body>
+    <footer>
+        <p>
+            ICAN<br />
+            Copyright © 2019. Tous droits réservés
+         </p>
+    </footer>
+</html>
